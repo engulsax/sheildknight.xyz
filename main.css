@@ -1,0 +1,79 @@
+h1,p{
+   font-family: 'Press Start 2P', cursive;
+   color: white;
+   text-transform: uppercase;
+}
+h1{
+   font-size: large;
+   text-align: center;
+}
+
+a{
+   font-family: 'Press Start 2P', cursive;
+   color: white;
+   text-transform: uppercase;
+   font-size: xx-large;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+a:hover, a:focus{
+   color: rgba(255, 255, 255, 0.75);
+}
+
+p{
+   font-size: medium;
+   text-align: center;
+}
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+ }
+ 
+ body {
+   text-align:center;
+    background-image: url(/img/background.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: black;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+ }
+
+ #logo, #logo img{
+   display: block;
+   margin: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   width:65%;
+ }
+
+ ul{
+   list-style: none;
+   text-align: center;
+   padding: 0;
+   margin: 10px 0;
+ }
+
+ li{
+    display: inline;
+ }
+
+ #map{
+    width: 25%;
+    height: auto;
+    margin: 10px;
+ }
+
+ #characters{
+   margin: 100px;
+ }
+
+ #info h1{
+ margin: 50px;
+}
